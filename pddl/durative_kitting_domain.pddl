@@ -155,7 +155,7 @@
         :duration (= ?duration 20)
         :condition (and
             (at start (agv-at-kitting-station ?agv))
-            (over all (= (current-num-parts-in-kit) 2))
+            (over all (= (current-num-parts-in-kit) (expected-num-parts-in-kit)))
         )
         :effect (and
             (at start (not (agv-at-kitting-station ?agv)))
