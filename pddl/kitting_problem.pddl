@@ -52,7 +52,7 @@
             (on-agv tray1 agv1)
             (part-in-tray BLUEBATTERY TRAYID1 QUADRANT1)
             (part-in-tray BLUEBATTERY TRAYID1 QUADRANT2)
-            ;(submitted-order)
+            (competition-ended)
         )
     )
 )

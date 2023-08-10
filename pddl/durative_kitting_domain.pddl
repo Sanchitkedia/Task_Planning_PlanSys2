@@ -92,7 +92,7 @@
     )
 
     (:durative-action PickUpPart
-        :parameters (?part - part ?part_type_color - part-type-color ?bin - bin)
+        :parameters (?part - part ?part_type_color - part-type-color ?bin - bin ?agv - agv)
         :duration (= ?duration 15)
         :condition (and
             (at start (has-part-type-color ?part ?part_type_color))
